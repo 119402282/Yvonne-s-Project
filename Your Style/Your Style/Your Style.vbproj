@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{221BE6A9-028B-4D5E-915B-D927B738BF2A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Your_Style.My.MyApplication</StartupObject>
+    <RootNamespace>Your_Style</RootNamespace>
+    <AssemblyName>Your Style</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Your Style.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Your Style.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmClassicBackCounter.Designer.vb">
+      <DependentUpon>frmClassicBackCounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassicBackCounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassicEyestay.Designer.vb">
+      <DependentUpon>frmClassicEyestay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassicEyestay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassicHeelTab.Designer.vb">
+      <DependentUpon>frmClassicHeelTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassicHeelTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassicLaces.Designer.vb">
+      <DependentUpon>frmClassicLaces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassicLaces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassicQuarter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassicQuarter.Designer.vb">
+      <DependentUpon>frmClassicQuarter.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClassicVamp.Designer.vb">
+      <DependentUpon>frmClassicVamp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmClassicVamp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRetroBackCounter.Designer.vb">
+      <DependentUpon>frmRetroBackCounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRetroBackCounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRetroEyestay.Designer.vb">
+      <DependentUpon>frmRetroEyestay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRetroEyestay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRetroHeelTab.Designer.vb">
+      <DependentUpon>frmRetroHeelTab.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRetroHeelTab.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRetroLaces.Designer.vb">
+      <DependentUpon>frmRetroLaces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRetroLaces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRetroQuarter.Designer.vb">
+      <DependentUpon>frmRetroQuarter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRetroQuarter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRetroVamp.Designer.vb">
+      <DependentUpon>frmRetroVamp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRetroVamp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShoeType.Designer.vb">
+      <DependentUpon>frmShoeType.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShoeType.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVintageBackCounter.Designer.vb">
+      <DependentUpon>frmVintageBackCounter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVintageBackCounter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVintageEyestay.Designer.vb">
+      <DependentUpon>frmVintageEyestay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVintageEyestay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVintageLaces.Designer.vb">
+      <DependentUpon>frmVintageLaces.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVintageLaces.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVintageVamp.Designer.vb">
+      <DependentUpon>frmVintageVamp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVintageVamp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\frmVintageQuarter.Designer.vb">
+      <DependentUpon>frmVintageQuarter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\frmVintageQuarter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmClassicBackCounter.resx">
+      <DependentUpon>frmClassicBackCounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassicEyestay.resx">
+      <DependentUpon>frmClassicEyestay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassicHeelTab.resx">
+      <DependentUpon>frmClassicHeelTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassicLaces.resx">
+      <DependentUpon>frmClassicLaces.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassicQuarter.resx">
+      <DependentUpon>frmClassicQuarter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClassicVamp.resx">
+      <DependentUpon>frmClassicVamp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRetroBackCounter.resx">
+      <DependentUpon>frmRetroBackCounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRetroEyestay.resx">
+      <DependentUpon>frmRetroEyestay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRetroHeelTab.resx">
+      <DependentUpon>frmRetroHeelTab.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRetroLaces.resx">
+      <DependentUpon>frmRetroLaces.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRetroQuarter.resx">
+      <DependentUpon>frmRetroQuarter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRetroVamp.resx">
+      <DependentUpon>frmRetroVamp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShoeType.resx">
+      <DependentUpon>frmShoeType.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVintageBackCounter.resx">
+      <DependentUpon>frmVintageBackCounter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVintageEyestay.resx">
+      <DependentUpon>frmVintageEyestay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVintageLaces.resx">
+      <DependentUpon>frmVintageLaces.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVintageVamp.resx">
+      <DependentUpon>frmVintageVamp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\frmVintageQuarter.resx">
+      <DependentUpon>frmVintageQuarter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\aqua\ClassicAquaBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\aqua\ClassicAquaEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\aqua\ClassicAquaHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\aqua\ClassicAquaLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\aqua\ClassicAquaQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\aqua\ClassicAquaVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\black\ClassicBlackBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\black\ClassicBlackEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\black\ClassicBlackHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\black\ClassicBlackLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\black\ClassicBlackQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\black\ClassicBlackVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\blue\ClassicBlueBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\blue\ClassicBlueEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\blue\ClassicBlueHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\blue\ClassicBlueLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\blue\ClassicBlueQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\blue\ClassicBlueVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\gray\ClassicGrayBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\gray\ClassicGrayEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\gray\ClassicGrayHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\gray\ClassicGrayLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\gray\ClassicGrayQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\gray\ClassicGrayVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\green\ClassicGreenBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\green\ClassicGreenEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\green\ClassicGreenHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\green\ClassicGreenLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\green\ClassicGreenQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\green\ClassicGreenVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\lime\ClassicLimeBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\lime\ClassicLimeEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\lime\ClassicLimeHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\lime\ClassicLimeLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\lime\ClassicLimeQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\lime\ClassicLimeVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\pink\ClassicPinkBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\pink\ClassicPinkEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\pink\ClassicPinkHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\pink\ClassicPinkLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\pink\ClassicPinkQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\pink\ClassicPinkVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\red\ClassicRedBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\red\ClassicRedEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\red\ClassicRedHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\red\ClassicRedLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\red\ClassicRedQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\red\ClassicRedVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\white\ClassicWhiteBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\white\ClassicWhiteEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\white\ClassicWhiteHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\white\ClassicWhiteLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\white\ClassicWhiteQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Classic Parts\white\ClassicWhiteVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\aqua\RetroAquaBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\aqua\RetroAquaEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\aqua\RetroAquaHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\aqua\RetroAquaLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\aqua\RetroAquaQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\aqua\RetroAquaVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\black\RetroBlackBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\black\RetroBlackEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\black\RetroBlackHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\black\RetroBlackLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\black\RetroBlackQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\black\RetroBlackVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\blue\RetroBlueBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\blue\RetroBlueEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\blue\RetroBlueHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\blue\RetroBlueLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\blue\RetroBlueQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\blue\RetroBlueVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\gray\RetroGrayBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\gray\RetroGrayEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\gray\RetroGrayHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\gray\RetroGrayLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\gray\RetroGrayQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\gray\RetroGrayVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\green\RetroGreenBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\green\RetroGreenEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\green\RetroGreenHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\green\RetroGreenLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\green\RetroGreenQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\green\RetroGreenVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\lime\RetroLimeBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\lime\RetroLimeEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\lime\RetroLimeHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\lime\RetroLimeLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\lime\RetroLimeQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\lime\RetroLimeVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\pink\RetroPinkBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\pink\RetroPinkEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\pink\RetroPinkHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\pink\RetroPinkLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\pink\RetroPinkQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\pink\RetroPinkVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\red\RetroRedBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\red\RetroRedEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\red\RetroRedHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\red\RetroRedLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\red\RetroRedQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\red\RetroRedVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\white\RetroWhiteBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\white\RetroWhiteEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\white\RetroWhiteHeelTab.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\white\RetroWhiteLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\white\RetroWhiteQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Retro Parts\white\RetroWhiteVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\aqua\VintageAquaBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\aqua\VintageAquaEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\aqua\VintageAquaLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\aqua\VintageAquaQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\aqua\VintageAquaVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\black\VintageBlackBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\black\VintageBlackEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\black\VintageBlackLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\black\VintageBlackQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\black\VintageBlackVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\blue\VintageBlueBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\blue\VintageBlueEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\blue\VintageBlueLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\blue\VintageBlueQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\blue\VintageBlueVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\gray\VintageGrayBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\gray\VintageGrayEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\gray\VintageGrayLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\gray\VintageGrayQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\gray\VintageGrayVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\green\VintageGreenBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\green\VintageGreenEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\green\VintageGreenLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\green\VintageGreenQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\green\VintageGreenVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\lime\VintageLimeBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\lime\VintageLimeEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\lime\VintageLimeLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\lime\VintageLimeQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\lime\VintageLimeVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\pink\VintagePinkBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\pink\VintagePinkEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\pink\VintagePinkLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\pink\VintagePinkQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\pink\VintagePinkVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\red\VintageRedBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\red\VintageRedEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\red\VintageRedLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\red\VintageRedQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\red\VintageRedVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\white\VintageWhiteBackCounter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\white\VintageWhiteEyestay.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\white\VintageWhiteLaces.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\white\VintageWhiteQuarter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Vintage Parts\white\VintageWhiteVamp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Full shoe images\Classic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Full shoe images\ClassicBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Full shoe images\Retro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Full shoe images\RetroBacking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Full shoe images\Vintage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Full shoe images\VintageBacking.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

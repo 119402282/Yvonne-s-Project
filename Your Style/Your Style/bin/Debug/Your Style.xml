@@ -1,0 +1,821 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Your Style
+</name>
+</assembly>
+<members>
+<member name="T:Your_Style.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.Classic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicAquaBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicAquaEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicAquaHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicAquaLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicAquaQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicAquaVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBackground">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlackBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlackEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlackHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlackLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlackQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlackVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlueBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlueEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlueHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlueLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlueQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicBlueVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGrayBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGrayEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGrayHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGrayLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGrayQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGrayVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGreenBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGreenEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGreenHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGreenLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGreenQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicGreenVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicLimeBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicLimeEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicLimeHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicLimeLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicLimeQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicLimeVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicPinkBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicPinkEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicPinkHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicPinkLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicPinkQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicPinkVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicRedBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicRedEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicRedHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicRedLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicRedQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicRedVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicWhiteBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicWhiteEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicWhiteHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicWhiteLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicWhiteQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.ClassicWhiteVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.Retro">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroAquaBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroAquaEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroAquaHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroAquaLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroAquaQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroAquaVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBacking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlackBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlackEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlackHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlackLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlackQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlackVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlueBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlueEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlueHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlueLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlueQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroBlueVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGrayBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGrayEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGrayHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGrayLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGrayQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGrayVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGreenBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGreenEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGreenHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGreenLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGreenQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroGreenVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroLimeBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroLimeEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroLimeHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroLimeLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroLimeQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroLimeVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroPinkBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroPinkEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroPinkHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroPinkLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroPinkQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroPinkVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroRedBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroRedEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroRedHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroRedLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroRedQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroRedVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroWhiteBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroWhiteEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroWhiteHeelTab">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroWhiteLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroWhiteQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.RetroWhiteVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.Vintage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageAquaBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageAquaEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageAquaLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageAquaQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageAquaVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBacking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlackBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlackEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlackLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlackQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlackVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlueBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlueEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlueLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlueQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageBlueVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGrayBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGrayEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGrayLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGrayQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGrayVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGreenBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGreenEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGreenLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGreenQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageGreenVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageLimeBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageLimeEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageLimeLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageLimeQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageLimeVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintagePinkBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintagePinkEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintagePinkLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintagePinkQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintagePinkVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageRedBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageRedEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageRedLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageRedQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageRedVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageWhiteBackCounter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageWhiteEyestay">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageWhiteLaces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageWhiteQuarter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Your_Style.My.Resources.Resources.VintageWhiteVamp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+</members>
+</doc>

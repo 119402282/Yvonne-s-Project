@@ -1,0 +1,29 @@
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\bin\Debug\Your Style.exe.config
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\bin\Debug\Your Style.exe
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\bin\Debug\Your Style.pdb
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\bin\Debug\Your Style.xml
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your Style.vbprojAssemblyReference.cache
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmClassicQuarter.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.Resources.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your Style.vbproj.GenerateResource.cache
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your Style.vbproj.CoreCompileInputs.cache
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your Style.exe
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your Style.xml
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your Style.pdb
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmClassicVamp.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmClassicEyestay.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmClassicLaces.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmClassicHeelTab.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmClassicBackCounter.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmShoeType.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmRetroQuarter.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmRetroVamp.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmRetroEyestay.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmRetroLaces.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmRetroHeelTab.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmRetroBackCounter.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmVintageBackCounter.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmVintageEyestay.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmVintageLaces.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmVintageVamp.resources
+C:\Users\culle\OneDrive\Pictures\Documents\Yvonne's Project\Your Style\Your Style\obj\Debug\Your_Style.frmVintageQuarter.resources

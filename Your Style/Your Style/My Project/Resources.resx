@@ -1,0 +1,598 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Full shoe images\Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicAquaBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\aqua\ClassicAquaBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicAquaEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\aqua\ClassicAquaEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicAquaHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\aqua\ClassicAquaHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicAquaLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\aqua\ClassicAquaLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicAquaQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\aqua\ClassicAquaQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicAquaVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\aqua\ClassicAquaVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Full shoe images\ClassicBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlackBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\black\ClassicBlackBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlackEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\black\ClassicBlackEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlackHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\black\ClassicBlackHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlackLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\black\ClassicBlackLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlackQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\black\ClassicBlackQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlackVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\black\ClassicBlackVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlueBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\blue\ClassicBlueBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlueEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\blue\ClassicBlueEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlueHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\blue\ClassicBlueHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlueLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\blue\ClassicBlueLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlueQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\blue\ClassicBlueQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicBlueVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\blue\ClassicBlueVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGrayBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\gray\ClassicGrayBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGrayEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\gray\ClassicGrayEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGrayHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\gray\ClassicGrayHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGrayLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\gray\ClassicGrayLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGrayQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\gray\ClassicGrayQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGrayVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\gray\ClassicGrayVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGreenBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\green\ClassicGreenBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGreenEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\green\ClassicGreenEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGreenHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\green\ClassicGreenHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGreenLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\green\ClassicGreenLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGreenQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\green\ClassicGreenQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicGreenVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\green\ClassicGreenVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicLimeBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\lime\ClassicLimeBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicLimeEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\lime\ClassicLimeEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicLimeHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\lime\ClassicLimeHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicLimeLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\lime\ClassicLimeLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicLimeQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\lime\ClassicLimeQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicLimeVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\lime\ClassicLimeVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicPinkBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\pink\ClassicPinkBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicPinkEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\pink\ClassicPinkEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicPinkHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\pink\ClassicPinkHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicPinkLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\pink\ClassicPinkLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicPinkQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\pink\ClassicPinkQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicPinkVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\pink\ClassicPinkVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicRedBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\red\ClassicRedBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicRedEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\red\ClassicRedEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicRedHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\red\ClassicRedHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicRedLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\red\ClassicRedLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicRedQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\red\ClassicRedQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicRedVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\red\ClassicRedVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicWhiteBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\white\ClassicWhiteBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicWhiteEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\white\ClassicWhiteEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicWhiteHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\white\ClassicWhiteHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicWhiteLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\white\ClassicWhiteLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicWhiteQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\white\ClassicWhiteQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ClassicWhiteVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Classic Parts\white\ClassicWhiteVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Retro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Full shoe images\Retro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroAquaBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\aqua\RetroAquaBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroAquaEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\aqua\RetroAquaEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroAquaHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\aqua\RetroAquaHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroAquaLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\aqua\RetroAquaLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroAquaQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\aqua\RetroAquaQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroAquaVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\aqua\RetroAquaVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Full shoe images\RetroBacking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlackBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\black\RetroBlackBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlackEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\black\RetroBlackEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlackHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\black\RetroBlackHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlackLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\black\RetroBlackLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlackQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\black\RetroBlackQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlackVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\black\RetroBlackVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlueBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\blue\RetroBlueBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlueEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\blue\RetroBlueEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlueHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\blue\RetroBlueHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlueLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\blue\RetroBlueLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlueQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\blue\RetroBlueQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroBlueVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\blue\RetroBlueVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGrayBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\gray\RetroGrayBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGrayEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\gray\RetroGrayEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGrayHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\gray\RetroGrayHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGrayLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\gray\RetroGrayLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGrayQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\gray\RetroGrayQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGrayVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\gray\RetroGrayVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGreenBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\green\RetroGreenBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGreenEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\green\RetroGreenEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGreenHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\green\RetroGreenHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGreenLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\green\RetroGreenLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGreenQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\green\RetroGreenQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroGreenVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\green\RetroGreenVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroLimeBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\lime\RetroLimeBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroLimeEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\lime\RetroLimeEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroLimeHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\lime\RetroLimeHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroLimeLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\lime\RetroLimeLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroLimeQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\lime\RetroLimeQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroLimeVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\lime\RetroLimeVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroPinkBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\pink\RetroPinkBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroPinkEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\pink\RetroPinkEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroPinkHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\pink\RetroPinkHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroPinkLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\pink\RetroPinkLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroPinkQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\pink\RetroPinkQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroPinkVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\pink\RetroPinkVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroRedBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\red\RetroRedBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroRedEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\red\RetroRedEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroRedHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\red\RetroRedHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroRedLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\red\RetroRedLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroRedQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\red\RetroRedQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroRedVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\red\RetroRedVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroWhiteBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\white\RetroWhiteBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroWhiteEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\white\RetroWhiteEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroWhiteHeelTab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\white\RetroWhiteHeelTab.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroWhiteLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\white\RetroWhiteLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroWhiteQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\white\RetroWhiteQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RetroWhiteVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Retro Parts\white\RetroWhiteVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Vintage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Full shoe images\Vintage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageAquaBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\aqua\VintageAquaBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageAquaEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\aqua\VintageAquaEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageAquaLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\aqua\VintageAquaLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageAquaQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\aqua\VintageAquaQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageAquaVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\aqua\VintageAquaVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Full shoe images\VintageBacking.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlackBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\black\VintageBlackBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlackEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\black\VintageBlackEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlackLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\black\VintageBlackLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlackQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\black\VintageBlackQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlackVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\black\VintageBlackVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlueBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\blue\VintageBlueBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlueEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\blue\VintageBlueEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlueLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\blue\VintageBlueLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlueQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\blue\VintageBlueQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageBlueVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\blue\VintageBlueVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGrayBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\gray\VintageGrayBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGrayEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\gray\VintageGrayEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGrayLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\gray\VintageGrayLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGrayQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\gray\VintageGrayQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGrayVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\gray\VintageGrayVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGreenBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\green\VintageGreenBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGreenEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\green\VintageGreenEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGreenLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\green\VintageGreenLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGreenQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\green\VintageGreenQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageGreenVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\green\VintageGreenVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageLimeBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\lime\VintageLimeBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageLimeEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\lime\VintageLimeEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageLimeLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\lime\VintageLimeLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageLimeQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\lime\VintageLimeQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageLimeVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\lime\VintageLimeVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintagePinkBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\pink\VintagePinkBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintagePinkEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\pink\VintagePinkEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintagePinkLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\pink\VintagePinkLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintagePinkQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\pink\VintagePinkQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintagePinkVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\pink\VintagePinkVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageRedBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\red\VintageRedBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageRedEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\red\VintageRedEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageRedLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\red\VintageRedLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageRedQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\red\VintageRedQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageRedVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\red\VintageRedVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageWhiteBackCounter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\white\VintageWhiteBackCounter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageWhiteEyestay" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\white\VintageWhiteEyestay.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageWhiteLaces" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\white\VintageWhiteLaces.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageWhiteQuarter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\white\VintageWhiteQuarter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="VintageWhiteVamp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Vintage Parts\white\VintageWhiteVamp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
