@@ -3,9 +3,6 @@
     'Declaring the tick which controls the colors
     Dim intTick As Integer = 0
 
-    'Declaring a string to hold the color value across the different pages
-    Public strClassicBackCounter As String = " "
-
     Private Sub picClassicBackCounter_Click(sender As Object, e As EventArgs) Handles picClassicBackCounter.Click
 
         'Declaring Resource Manager to use to retrieve the images
@@ -20,45 +17,45 @@
 
         'Select Case statement to change the picbox out output
         'It also changes the outputof the label to notify the user of their selection
-        'The variable strClassicBackCounter will also be used when transfering the data to a datasheet
+        'The variable modGlobalVariables.strBackCounterColor will also be used when transfering the data to a datasheet
         'and for the receipt and billing form
         Select Case intTick
             Case 1
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicAquaBackCounter")
-                strClassicBackCounter = "Aqua"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Aqua"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 2
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicBlackBackCounter")
-                strClassicBackCounter = "Black"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Black"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 3
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicBlueBackCounter")
-                strClassicBackCounter = "Blue"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Blue"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 4
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicGrayBackCounter")
-                strClassicBackCounter = "Gray"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Gray"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 5
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicGreenBackCounter")
-                strClassicBackCounter = "Green"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Green"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 6
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicLimeBackCounter")
-                strClassicBackCounter = "Lime"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Lime"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 7
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicPinkBackCounter")
-                strClassicBackCounter = "Pink"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Pink"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 8
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicRedBackCounter")
-                strClassicBackCounter = "Red"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "Red"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
             Case 9
                 picClassicBackCounter.Image = ResMgr.GetObject("ClassicWhiteBackCounter")
-                strClassicBackCounter = "White"
-                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+                modGlobalVariables.strBackCounterColor = "White"
+                lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
                 intTick = 0
         End Select
 
@@ -75,14 +72,14 @@
 
         'Setting initial the initial color to white
         picClassicBackCounter.Image = ResMgr.GetObject("ClassicWhiteBackCounter")
-        strClassicBackCounter = "White"
-        lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & strClassicBackCounter
+        modGlobalVariables.strBackCounterColor = "White"
+        lblClassicBackCounter.Text = "The selected color for the Classic Back Counter is: " & modGlobalVariables.strBackCounterColor
 
     End Sub
 
     Private Sub btnNext_Click(sender As Object, e As EventArgs) Handles btnNext.Click
         'Next form
-        'frmClassicText.Show()
+        frmShoeText.Show()
         Me.Hide()
     End Sub
 

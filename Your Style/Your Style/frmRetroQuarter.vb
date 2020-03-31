@@ -3,9 +3,6 @@
     'Declaring the tick which controls the colors
     Dim intTick As Integer = 0
 
-    'Declaring a string to hold the color value across the different pages
-    Public strRetroQuarter As String = " "
-
     Private Sub picRetroQuarter_Click(sender As Object, e As EventArgs) Handles picRetroQuarter.Click
 
         'Declaring Resource Manager to use to retrieve the images
@@ -20,45 +17,45 @@
 
         'Select Case statement to change the picbox out output
         'It also changes the outputof the label to notify the user of their selection
-        'The variable strRetroQuarter will also be used when transfering the data to a datasheet
+        'The variable modGlobalVariables.strQuarterColor will also be used when transfering the data to a datasheet
         'and for the receipt and billing form
         Select Case intTick
             Case 1
                 picRetroQuarter.Image = ResMgr.GetObject("RetroAquaQuarter")
-                strRetroQuarter = "Aqua"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Aqua"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 2
                 picRetroQuarter.Image = ResMgr.GetObject("RetroBlackQuarter")
-                strRetroQuarter = "Black"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Black"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 3
                 picRetroQuarter.Image = ResMgr.GetObject("RetroBlueQuarter")
-                strRetroQuarter = "Blue"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Blue"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 4
                 picRetroQuarter.Image = ResMgr.GetObject("RetroGrayQuarter")
-                strRetroQuarter = "Gray"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Gray"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 5
                 picRetroQuarter.Image = ResMgr.GetObject("RetroGreenQuarter")
-                strRetroQuarter = "Green"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Green"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 6
                 picRetroQuarter.Image = ResMgr.GetObject("RetroLimeQuarter")
-                strRetroQuarter = "Lime"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Lime"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 7
                 picRetroQuarter.Image = ResMgr.GetObject("RetroPinkQuarter")
-                strRetroQuarter = "Pink"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Pink"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 8
                 picRetroQuarter.Image = ResMgr.GetObject("RetroRedQuarter")
-                strRetroQuarter = "Red"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "Red"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
             Case 9
                 picRetroQuarter.Image = ResMgr.GetObject("RetroWhiteQuarter")
-                strRetroQuarter = "White"
-                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+                modGlobalVariables.strQuarterColor = "White"
+                lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
                 intTick = 0
         End Select
 
@@ -69,14 +66,15 @@
     End Sub
 
     Private Sub frmRetroQuarter_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
         'Using the Resource Manager code again
         Dim ResMgr As Resources.ResourceManager
         ResMgr = New Resources.ResourceManager("Your_Style.Resources", System.Reflection.Assembly.GetExecutingAssembly)
 
         'Setting initial the initial color to white
         picRetroQuarter.Image = ResMgr.GetObject("RetroWhiteQuarter")
-        strRetroQuarter = "White"
-        lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & strRetroQuarter
+        modGlobalVariables.strQuarterColor = "White"
+        lblRetroQuarter.Text = "The selected color for the Retro Quarter is: " & modGlobalVariables.strQuarterColor
 
     End Sub
 
@@ -87,6 +85,9 @@
     End Sub
 
     Private Sub picBack_Click(sender As Object, e As EventArgs) Handles picBack.Click
+        'Alerts user that all customizations will be lost if the go back to the intial shoe type page
+        MessageBox.Show("Warning! All active customizations that have not been completed will be lost if you go back.", "Warning")
+
         'Going back a form
         frmShoeType.Show()
         Me.Hide()
@@ -99,15 +100,21 @@
         frmRetroBackCounter.Close()
 
         'Reseting the Strings
-        strRetroQuarter = " "
-        frmRetroVamp.strRetroVamp = " "
-        frmRetroEyestay.strRetroEyestay = " "
-        frmRetroLaces.strRetroLaces = " "
-        frmRetroHeelTab.strRetroHeelTab = " "
-        frmRetroBackCounter.strRetroBackCounter = " "
+        modGlobalVariables.strQuarterColor = ""
+        modGlobalVariables.strVampColor = ""
+        modGlobalVariables.strEyestayColor = ""
+        modGlobalVariables.strLacesColor = ""
+        modGlobalVariables.strHeelTabColor = ""
+        modGlobalVariables.strBackCounterColor = ""
 
 
 
 
+    End Sub
+
+    Private Sub frmRetroQuarter_Shown(sender As Object, e As EventArgs) Handles Me.Shown
+
+        'Informing user on how they can switch colors
+        MessageBox.Show("Click the part to cylcle through the different colors", "Information")
     End Sub
 End Class

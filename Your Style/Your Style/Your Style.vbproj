@@ -146,6 +146,18 @@
     <Compile Include="frmRetroVamp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmShoeLogo.Designer.vb">
+      <DependentUpon>frmShoeLogo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShoeLogo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShoeText.Designer.vb">
+      <DependentUpon>frmShoeText.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmShoeText.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmShoeType.Designer.vb">
       <DependentUpon>frmShoeType.vb</DependentUpon>
     </Compile>
@@ -170,22 +182,23 @@
     <Compile Include="frmVintageLaces.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="frmVintageQuarter.Designer.vb">
+      <DependentUpon>frmVintageQuarter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmVintageQuarter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="frmVintageVamp.Designer.vb">
       <DependentUpon>frmVintageVamp.vb</DependentUpon>
     </Compile>
     <Compile Include="frmVintageVamp.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="modGlobalVariables.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\frmVintageQuarter.Designer.vb">
-      <DependentUpon>frmVintageQuarter.vb</DependentUpon>
-    </Compile>
-    <Compile Include="My Project\frmVintageQuarter.vb">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -235,6 +248,12 @@
     <EmbeddedResource Include="frmRetroVamp.resx">
       <DependentUpon>frmRetroVamp.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmShoeLogo.resx">
+      <DependentUpon>frmShoeLogo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShoeText.resx">
+      <DependentUpon>frmShoeText.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmShoeType.resx">
       <DependentUpon>frmShoeType.vb</DependentUpon>
     </EmbeddedResource>
@@ -247,11 +266,11 @@
     <EmbeddedResource Include="frmVintageLaces.resx">
       <DependentUpon>frmVintageLaces.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmVintageQuarter.resx">
+      <DependentUpon>frmVintageQuarter.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmVintageVamp.resx">
       <DependentUpon>frmVintageVamp.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="My Project\frmVintageQuarter.resx">
-      <DependentUpon>frmVintageQuarter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
@@ -748,6 +767,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="My Project\Full shoe images\VintageBacking.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piccolormap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picdisabledcolormap.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

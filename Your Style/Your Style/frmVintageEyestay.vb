@@ -3,9 +3,6 @@
     'Declaring the tick which controls the colors
     Dim intTick As Integer = 0
 
-    'Declaring a string to hold the color value across the different pages
-    Public strVintageEyestay As String = " "
-
     Private Sub picVintageEyestay_Click(sender As Object, e As EventArgs) Handles picVintageEyestay.Click
 
         'Declaring Resource Manager to use to retrieve the images
@@ -20,45 +17,45 @@
 
         'Select Case statement to change the picbox out output
         'It also changes the outputof the label to notify the user of their selection
-        'The variable strVintageEyestay will also be used when transfering the data to a datasheet
+        'The variable modGlobalVariables.strEyestayColor will also be used when transfering the data to a datasheet
         'and for the receipt and billing form
         Select Case intTick
             Case 1
                 picVintageEyestay.Image = ResMgr.GetObject("VintageAquaEyestay")
-                strVintageEyestay = "Aqua"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Aqua"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 2
                 picVintageEyestay.Image = ResMgr.GetObject("VintageBlackEyestay")
-                strVintageEyestay = "Black"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Black"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 3
                 picVintageEyestay.Image = ResMgr.GetObject("VintageBlueEyestay")
-                strVintageEyestay = "Blue"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Blue"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 4
                 picVintageEyestay.Image = ResMgr.GetObject("VintageGrayEyestay")
-                strVintageEyestay = "Gray"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Gray"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 5
                 picVintageEyestay.Image = ResMgr.GetObject("VintageGreenEyestay")
-                strVintageEyestay = "Green"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Green"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 6
                 picVintageEyestay.Image = ResMgr.GetObject("VintageLimeEyestay")
-                strVintageEyestay = "Lime"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Lime"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 7
                 picVintageEyestay.Image = ResMgr.GetObject("VintagePinkEyestay")
-                strVintageEyestay = "Pink"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Pink"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 8
                 picVintageEyestay.Image = ResMgr.GetObject("VintageRedEyestay")
-                strVintageEyestay = "Red"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "Red"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
             Case 9
                 picVintageEyestay.Image = ResMgr.GetObject("VintageWhiteEyestay")
-                strVintageEyestay = "White"
-                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+                modGlobalVariables.strEyestayColor = "White"
+                lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
                 intTick = 0
         End Select
 
@@ -75,8 +72,8 @@
 
         'Setting initial the initial color to white
         picVintageEyestay.Image = ResMgr.GetObject("VintageWhiteEyestay")
-        strVintageEyestay = "White"
-        lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & strVintageEyestay
+        modGlobalVariables.strEyestayColor = "White"
+        lblVintageEyestay.Text = "The selected color for the Vintage Eyestay is: " & modGlobalVariables.strEyestayColor
 
     End Sub
 

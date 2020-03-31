@@ -3,9 +3,6 @@
     'Declaring the tick which controls the colors
     Dim intTick As Integer = 0
 
-    'Declaring a string to hold the color value across the different pages
-    Public strClassicLaces As String = " "
-
     Private Sub picClassicLaces_Click(sender As Object, e As EventArgs) Handles picClassicLaces.Click
 
         'Declaring Resource Manager to use to retrieve the images
@@ -20,45 +17,45 @@
 
         'Select Case statement to change the picbox out output
         'It also changes the outputof the label to notify the user of their selection
-        'The variable strClassicLaces will also be used when transfering the data to a datasheet
+        'The variable modGlobalVariables.strLacesColor will also be used when transfering the data to a datasheet
         'and for the receipt and billing form
         Select Case intTick
             Case 1
                 picClassicLaces.Image = ResMgr.GetObject("ClassicAquaLaces")
-                strClassicLaces = "Aqua"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Aqua"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 2
                 picClassicLaces.Image = ResMgr.GetObject("ClassicBlackLaces")
-                strClassicLaces = "Black"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Black"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 3
                 picClassicLaces.Image = ResMgr.GetObject("ClassicBlueLaces")
-                strClassicLaces = "Blue"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Blue"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 4
                 picClassicLaces.Image = ResMgr.GetObject("ClassicGrayLaces")
-                strClassicLaces = "Gray"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Gray"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 5
                 picClassicLaces.Image = ResMgr.GetObject("ClassicGreenLaces")
-                strClassicLaces = "Green"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Green"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 6
                 picClassicLaces.Image = ResMgr.GetObject("ClassicLimeLaces")
-                strClassicLaces = "Lime"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Lime"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 7
                 picClassicLaces.Image = ResMgr.GetObject("ClassicPinkLaces")
-                strClassicLaces = "Pink"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Pink"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 8
                 picClassicLaces.Image = ResMgr.GetObject("ClassicRedLaces")
-                strClassicLaces = "Red"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "Red"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
             Case 9
                 picClassicLaces.Image = ResMgr.GetObject("ClassicWhiteLaces")
-                strClassicLaces = "White"
-                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+                modGlobalVariables.strLacesColor = "White"
+                lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
                 intTick = 0
         End Select
 
@@ -75,8 +72,8 @@
 
         'Setting initial the initial color to white
         picClassicLaces.Image = ResMgr.GetObject("ClassicWhiteLaces")
-        strClassicLaces = "White"
-        lblClassicLaces.Text = "The selected color for the Classic Laces is: " & strClassicLaces
+        modGlobalVariables.strLacesColor = "White"
+        lblClassicLaces.Text = "The selected color for the Classic Laces is: " & modGlobalVariables.strLacesColor
 
     End Sub
 

@@ -3,9 +3,6 @@
     'Declaring the tick which controls the colors
     Dim intTick As Integer = 0
 
-    'Declaring a string to hold the color value across the different pages
-    Public strVintageVamp As String = " "
-
     Private Sub picVintageVamp_Click(sender As Object, e As EventArgs) Handles picVintageVamp.Click
 
         'Declaring Resource Manager to use to retrieve the images
@@ -20,45 +17,45 @@
 
         'Select Case statement to change the picbox out output
         'It also changes the outputof the label to notify the user of their selection
-        'The variable strVintageVamp will also be used when transfering the data to a datasheet
+        'The variable modGlobalVariables.strVampColor will also be used when transfering the data to a datasheet
         'and for the receipt and billing form
         Select Case intTick
             Case 1
                 picVintageVamp.Image = ResMgr.GetObject("VintageAquaVamp")
-                strVintageVamp = "Aqua"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Aqua"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 2
                 picVintageVamp.Image = ResMgr.GetObject("VintageBlackVamp")
-                strVintageVamp = "Black"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Black"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 3
                 picVintageVamp.Image = ResMgr.GetObject("VintageBlueVamp")
-                strVintageVamp = "Blue"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Blue"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 4
                 picVintageVamp.Image = ResMgr.GetObject("VintageGrayVamp")
-                strVintageVamp = "Gray"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Gray"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 5
                 picVintageVamp.Image = ResMgr.GetObject("VintageGreenVamp")
-                strVintageVamp = "Green"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Green"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 6
                 picVintageVamp.Image = ResMgr.GetObject("VintageLimeVamp")
-                strVintageVamp = "Lime"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Lime"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 7
                 picVintageVamp.Image = ResMgr.GetObject("VintagePinkVamp")
-                strVintageVamp = "Pink"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Pink"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 8
                 picVintageVamp.Image = ResMgr.GetObject("VintageRedVamp")
-                strVintageVamp = "Red"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "Red"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
             Case 9
                 picVintageVamp.Image = ResMgr.GetObject("VintageWhiteVamp")
-                strVintageVamp = "White"
-                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+                modGlobalVariables.strVampColor = "White"
+                lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
                 intTick = 0
         End Select
 
@@ -75,8 +72,8 @@
 
         'Setting initial the initial color to white
         picVintageVamp.Image = ResMgr.GetObject("VintageWhiteVamp")
-        strVintageVamp = "White"
-        lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & strVintageVamp
+        modGlobalVariables.strVampColor = "White"
+        lblVintageVamp.Text = "The selected color for the Vintage Vamp is: " & modGlobalVariables.strVampColor
 
     End Sub
 
